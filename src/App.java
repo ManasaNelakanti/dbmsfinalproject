@@ -8,7 +8,7 @@ import java.sql.SQLException;
 
 public class App {
     public static void main(String[] args) {
-        try (Connection connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "manasa1234")) {
+        try (Connection connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "manasa1GIT --234")) {
               // ! 3. The product p1 changes its name to pp1 in Product and Stock.
                 
                 
